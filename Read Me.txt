@@ -1,1 +1,1 @@
-This is a project named Duplicate File Finder
+When you've been using your computer for quite a long time, often you end up duplicating your files and you don't even know about them. Duplicate File Finder is a Linux/Unix utility than scans your hard drive for finding duplicates of a given file.
