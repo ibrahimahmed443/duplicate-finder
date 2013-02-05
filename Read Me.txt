@@ -1,1 +1,17 @@
-When you've been using your computer for quite a long time, often you end up duplicating your files and you don't even know about them. Duplicate File Finder is a Linux/Unix utility than scans your hard drive for finding duplicates of a given file.
+Duplicate File Finder is a Linux/Unix utility than scans your hard drive for finding duplicates of a given file.
+
+To run the program, you need to supply two inputs.
+
+(1) Base Directory
+This is the starting directory for scanning. Base directory will be completely scanned (including directories inside the Base directory) to find duplicates
+
+(2) File Name
+This is the file name you want to find duplicates of.
+
+
+Sample Run:
+suppose you have a directory named, /home/user. Inside this directory, you want to scan duplicates of a file /home/file.txt (Note that "File Name" may not be necessarily inside of "Base Directory"), you would run the program as follows...
+
+./duplicatefilefinder.exe /home/user /home/file.txt
+
+assumming that duplicatefilefinder.exe is in your path. 	
